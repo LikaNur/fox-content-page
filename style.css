@@ -1,0 +1,153 @@
+* {
+    font-family: 'Roboto', sans-serif;    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    color: #000;
+    line-height: 1.5;
+    letter-spacing: 0.38px;
+    scroll-behavior: smooth;
+}
+
+img {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+code {
+    font-family: monospace;
+    background-color: #f7f7f7;
+    padding: 15px;
+    line-height: 2;
+    display: block;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 22%;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(255, 255, 255, 0.40);
+    overflow-y: auto;
+    background-color: #D64200;
+}
+
+#navbar > header {
+    position: sticky;
+    top: 0;
+    margin: 20px 45px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.40);
+    padding: 12px 45px;
+    font-size: 14px;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 182, 159, 0.30);
+    font-weight: bold;
+}
+
+#main-page {
+    position: absolute;
+    margin-left: 350px;
+    padding: 40px;
+}
+
+section > header {
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
+.main-section header {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.main-section p {
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+article ul {
+    margin-left: 20px;
+}
+
+article li {
+    margin-bottom: 15px;
+}
+
+mark {
+    background-color: #e5e9eb;
+}
+   
+@media only screen and (max-width: 1000px) {
+    img {
+        display: none;    
+    }
+
+    #navbar ul {
+      border: 1px solid;
+      height: 310px;
+    }
+  
+    #navbar {
+      position: absolute;
+      width: 100%;
+      max-height: 30%;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.40);
+    }
+
+    #main-page {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 400px;
+    }
+
+    section > header {
+        margin-left: 10px;
+    }
+        
+    article {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    code {
+        margin-left: -5px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 45px;
+        min-width: 233px;
+    }
+  }
+  
+ 
+
+
+
+
+    
+ 
+    
+
